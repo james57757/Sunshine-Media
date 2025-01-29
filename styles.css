@@ -1,0 +1,120 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #a8e6ff, #fff8b8); /* Light blue to soft yellow */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header: Soft and inviting */
+header {
+    background: rgba(255, 223, 103, 0.9); /* Warm sunny yellow */
+    color: #333;
+    padding: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation: Soft blue with smooth hover effect */
+nav {
+    background: rgba(173, 216, 230, 0.8); /* Light sky blue */
+    padding: 12px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffbe42; /* Warm golden color */
+}
+
+/* Video section */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    padding-top: 40px; 
+    padding-bottom: 20px;
+}
+
+iframe {
+    width: 80%;
+    height: 450px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Sections */
+section {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.7); /* Light background for readability */
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff9a00; /* Warm orange */
+}
+
+p, li {
+    color: #555; /* Dark grey for readability */
+}
+
+/* Footer */
+footer {
+    background: rgba(255, 223, 103, 0.9); /* Sunny yellow */
+    color: #333;
+    padding: 20px;
+    font-size: 16px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: #ff9a00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Remove bullet points */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    iframe {
+        width: 95%;
+        height: 300px;
+    }
+
+    nav {
+        padding: 8px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+}
